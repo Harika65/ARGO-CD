@@ -7,11 +7,11 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      app: blue
+      env: blue
   template:
     metadata:
       labels:
-        app: blue
+        env: blue
     spec:
       containers:
         - name: cont-1
