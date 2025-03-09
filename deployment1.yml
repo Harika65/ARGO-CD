@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: harikan65/mytetrisgame:v2
+          image: harikan65/mytetrisgame:v1
           ports:
             - containerPort: 3000
